@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | DJ Sweeby</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Boek DJ Sweeby</h2>
+    <p>Klaar om een topfeest te organiseren met DJ Sweeby? Vul het formulier in en we nemen snel contact met je op. Geef gerust extra info over je locatie, publiek of muzieksmaak.</p>
+
+    <form action="https://formspree.io/f/xnnvvbzv" method="POST">
+      <input type="text" name="voornaam" placeholder="Wat is je voornaam?" required>
+      <input type="email" name="email" placeholder="Op welk e-mailadres kan ik je bereiken?" required>
+      <input type="tel" name="telefoon" placeholder="Wat is je telefoonnummer?" required>
+
+      <div class="row-3">
+        <input type="text" name="dag" placeholder="Dag" required>
+        <input type="text" name="maand" placeholder="Maand" required>
+        <input type="text" name="jaar" placeholder="Jaar" required>
+      </div>
+
+      <input type="text" name="locatie" placeholder="Waar vindt het evenement plaats?">
+      <input type="text" name="onderwerp" placeholder="Waarover gaat je aanvraag?">
+      <textarea name="bericht" placeholder="Vertel ons meer over jouw wensen, aantal gasten, stijl muziek, enz." rows="4"></textarea>
+
+      <button type="submit">Verstuur ➜</button>
+    </form>
+  </div>
+</body>
+</html>
